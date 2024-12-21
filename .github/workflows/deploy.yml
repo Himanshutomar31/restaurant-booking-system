@@ -47,4 +47,4 @@ jobs:
 
       - name: Push Docker images to Azure Container Registry
         run: |
-          docker push ${{ secrets.AZURE_ACR_NAME }}.azurecr.io/app:latest
+          docker push ${{ secrets.AZURE_ACR_NAME }}.azurecr.io/restaurant-booking-system_app:latest
