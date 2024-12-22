@@ -2,12 +2,15 @@
   "dependencies": {
     "@babel/register": "^7.25.9",
     "axios": "^1.7.9",
+    "bcrypt": "^5.1.1",
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "init": "^0.1.2",
     "pg": "^8.13.1",
     "sequelize": "^6.37.5",
-    "sequelize-cli": "^6.6.2"
+    "sequelize-cli": "^6.6.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   },
   "name": "src",
   "version": "1.0.0",

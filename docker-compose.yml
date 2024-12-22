@@ -28,5 +28,15 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
 
+  frontend:
+    build:
+      context: ./frontend 
+    ports:
+      - "80:80"  
+    depends_on:
+      - app  
+    environment:
+      - API_URL=http://app:3000
+    restart: always  
 volumes:
   postgres_data:
