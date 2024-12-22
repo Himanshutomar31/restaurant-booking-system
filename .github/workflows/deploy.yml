@@ -44,7 +44,9 @@ jobs:
       - name: Tag Docker images for ACR
         run: |
           docker tag restaurant-booking-system_app:latest ${{ secrets.AZURE_ACR_NAME }}.azurecr.io/restaurant-booking-system_app:latest
+          docker tag restaurant-booking-system_db:latest ${{ secrets.AZURE_ACR_NAME }}.azurecr.io/restaurant-booking-system_db:latest
 
       - name: Push Docker images to Azure Container Registry
         run: |
           docker push ${{ secrets.AZURE_ACR_NAME }}.azurecr.io/restaurant-booking-system_app:latest
+          docker push ${{ secrets.AZURE_ACR_NAME }}.azurecr.io/restaurant-booking-system_db:latest
