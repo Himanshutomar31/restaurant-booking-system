@@ -48,7 +48,7 @@ Here is the schema for the restaurant booking system (please replace this text w
 
 ## Project Structure
 ```plaintext
-├── backend/              # Express.js backend source code
+├── src/              # Express.js backend source code
 ├── frontend/             # Streamlit frontend source code
 ├── docker-compose.yml    # Defines multi-container application
 ├── .github/workflows/    # GitHub Actions CI/CD workflows
