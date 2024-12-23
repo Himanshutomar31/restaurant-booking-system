@@ -14,7 +14,7 @@ This project is a **Restaurant Booking System** that provides basic endpoints fo
 ---
 
 ## Database Schema
-Here is the schema for the restaurant booking system (please replace this text with an image of the schema or describe it in detail):
+Here is the schema for the restaurant booking system:
 
 ![image](https://github.com/user-attachments/assets/a775e6e2-cde5-455e-a797-a89ed4658e52)
 
